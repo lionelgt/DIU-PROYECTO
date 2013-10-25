@@ -23,16 +23,17 @@ public final class R {
     public static final class drawable {
         public static final int addc=0x7f020000;
         public static final int car=0x7f020001;
-        public static final int elim=0x7f020002;
-        public static final int generar=0x7f020003;
-        public static final int grupo=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int mass=0x7f020006;
-        public static final int por=0x7f020007;
-        public static final int usua=0x7f020008;
+        public static final int edit=0x7f020002;
+        public static final int elim=0x7f020003;
+        public static final int generar=0x7f020004;
+        public static final int grupo=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int mass=0x7f020007;
+        public static final int por=0x7f020008;
+        public static final int usua=0x7f020009;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000f;
+        public static final int action_settings=0x7f080011;
         public static final int imageButton1=0x7f080001;
         public static final int imageButton2=0x7f080000;
         public static final int imageButton3=0x7f080003;
@@ -41,13 +42,15 @@ public final class R {
         public static final int imageButton6=0x7f080005;
         public static final int imageButton7=0x7f08000c;
         public static final int imageButton8=0x7f08000d;
-        public static final int imageView1=0x7f08000e;
+        public static final int imageButton9=0x7f08000f;
+        public static final int imageView1=0x7f080010;
         public static final int textView1=0x7f080006;
         public static final int textView2=0x7f080007;
         public static final int textView3=0x7f080008;
         public static final int textView4=0x7f080009;
         public static final int textView5=0x7f08000a;
         public static final int textView6=0x7f08000b;
+        public static final int textView7=0x7f08000e;
     }
     public static final class layout {
         public static final int activity_directorio=0x7f030000;
