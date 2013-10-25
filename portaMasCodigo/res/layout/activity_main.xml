@@ -19,6 +19,7 @@
         android:layout_height="200dp"
         android:layout_x="-9dp"
         android:layout_y="100dp"
+        android:onClick="pasarDirectorio"
         android:src="@drawable/car" />
      <ImageButton
         android:id="@+id/imageButton2"
