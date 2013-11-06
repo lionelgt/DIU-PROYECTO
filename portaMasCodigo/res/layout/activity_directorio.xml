@@ -2,8 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
-     android:background="#CCFFCC">
+    android:background="#CCFFCC"
+    android:orientation="vertical" >
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -26,8 +26,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageButton1"
         android:layout_marginTop="100px"
+        android:layout_toRightOf="@+id/imageButton1"
         android:src="@drawable/car" />
 
     <ImageButton
@@ -35,8 +35,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="70px"
         android:layout_below="@+id/imageButton2"
+        android:layout_marginTop="70px"
         android:src="@drawable/car" />
 
     <ImageButton
@@ -44,8 +44,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageButton1"
-        android:layout_toLeftOf="@+id/imageButton4"
         android:layout_marginTop="70px"
+        android:layout_toLeftOf="@+id/imageButton4"
         android:src="@drawable/car" />
 
     <ImageButton
@@ -53,8 +53,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageButton1"
-        android:layout_toRightOf="@+id/imageButton1"
         android:layout_marginTop="70px"
+        android:layout_toRightOf="@+id/imageButton1"
         android:src="@drawable/car" />
 
     <TextView
@@ -128,7 +128,7 @@
         android:layout_alignTop="@+id/imageButton7"
         android:layout_toRightOf="@+id/imageButton7"
         android:src="@drawable/edit" />
-
+<!-- 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
@@ -140,7 +140,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@dimen/activity_horizontal_margin"
         android:textSize="30sp" />
-
+ -->
     <ImageButton
         android:id="@+id/imageButton9"
         android:layout_width="wrap_content"
